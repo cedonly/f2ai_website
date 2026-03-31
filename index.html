@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F2AI — Digitizing Manufacturing for U.S. Shipbuilding</title>
+  <meta name="description" content="F2AI is a digital platform connecting U.S. Navy shipyards and manufacturers. From RFQ discovery to Release-to-Work, one system to get shipbuilding unstuck.">
+  <meta property="og:title" content="F2AI — Digitizing Manufacturing for U.S. Shipbuilding">
+  <meta property="og:description" content="Engineering tools for the U.S. Navy's distributed manufacturing ecosystem. From RFQ to Release-to-Work, one platform.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://f2ai.us">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" sizes="32x32" href="./assets/logo-32.jpg">
+  <link rel="icon" type="image/jpeg" sizes="48x48" href="./assets/logo-48.jpg">
+  <link rel="apple-touch-icon" href="./assets/logo-256.jpg">
+
+  <!-- Fonts -->
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700,800&f[]=satoshi@400,500,600,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="page-home">
+
+  <!-- ════ HEADER ════ -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="./index.html" class="logo" aria-label="F2AI Home">
+        <img src="./assets/logo-nav.jpg" alt="F2AI" width="36" height="36">
+        <span class="logo-text">F2<strong>AI</strong></span>
+      </a>
+      <nav>
+        <ul class="nav-links" role="list">
+          <li><a href="./index.html" class="nav-active">Home</a></li>
+          <li><a href="./alpha-platform.html">Alpha Platform</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./alpha-platform.html#access" class="nav-cta">Request Access</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- ════ HERO ════ -->
+  <section class="hero hero-home" id="hero">
+    <video class="hero-video-bg" autoplay muted loop playsinline poster="./assets/ocean-bg-poster.jpg">
+      <source src="./assets/ocean-bg-web.mp4" type="video/mp4">
+    </video>
+    <div class="hero-bg-overlay"></div>
+
+    <div class="hero-content-wrap">
+      <div class="hero-badge reveal">
+        <span class="dot"></span>
+        Foundry &amp; Forge AI
+      </div>
+
+      <h1 class="hero-title reveal">
+        Digitizing manufacturing<br>
+        <span class="accent">NOW</span> for U.S. shipbuilding
+      </h1>
+
+      <p class="hero-subtitle reveal">
+        A digital platform connecting Navy shipyards and manufacturers — from RFQ discovery through Release-to-Work — so vendors can build parts, not decipher processes.
+      </p>
+
+      <div class="hero-buttons reveal">
+        <a href="./alpha-platform.html" class="btn btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+          Alpha Platform
+        </a>
+        <a href="./about.html" class="btn btn-secondary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          About Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════ RTW CRISIS ════ -->
+  <section class="section problem-section" id="problem">
+    <div class="section-narrow">
+      <div class="section-header reveal">
+        <p class="section-label">The RTW Crisis</p>
+        <h2 class="section-title">Why U.S. Navy shipbuilding is stuck</h2>
+        <p class="section-desc">
+          The Navy needs a 32% fleet increase, but shipyards can't see beyond an 8-week planning horizon. 
+          The breakdown isn't workforce — it's Release-to-Work.
+        </p>
+      </div>
+    </div>
+
+    <div class="problem-grid reveal">
+      <div class="problem-card">
+        <div class="problem-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <div class="problem-stat">8 weeks</div>
+        <h3>Planning blind spot</h3>
+        <p>Reliable build plans at major U.S. shipyards don't extend beyond 8-10 weeks. Beyond that horizon, work is planned by workstation loading rather than named work packages — a manual, error-prone process.</p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="problem-stat">~5,000</div>
+        <h3>Vendor exodus</h3>
+        <p>Only 5,000 small and mid-sized manufacturers serve the Navy out of 60,000-70,000 capable firms nationwide. Vendors leave because today's system forces their best people to decipher processes instead of making parts.</p>
+      </div>
+
+      <div class="problem-card">
+        <div class="problem-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </div>
+        <div class="problem-stat">100x</div>
+        <h3>Unpredictable supply chain</h3>
+        <p>Parts arrive late, incomplete, or defective — installed just to keep the schedule, then ripped out and reworked at far greater cost. Commercial component costs can be 100x higher inside the MIB.</p>
+      </div>
+    </div>
+
+    <div class="problem-cta reveal">
+      <a href="./alpha-platform.html" class="btn btn-primary">
+        See how F2AI solves this
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- ════ FOOTER ════ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <a href="./index.html" class="footer-logo" aria-label="F2AI Home">
+          <img src="./assets/logo-footer.jpg" alt="F2AI" width="48" height="48">
+          <span>F2AI</span>
+        </a>
+        <span class="footer-copy">&copy; 2026 F2AI. Austin, Texas.</span>
+      </div>
+      <div class="footer-nav">
+        <a href="./index.html">Home</a>
+        <a href="./alpha-platform.html">Alpha Platform</a>
+        <a href="./about.html">About Us</a>
+        <a href="./alpha-platform.html#access">Contact</a>
+      </div>
+      <div class="footer-right">
+        Digitizing manufacturing for distributed shipbuilding
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    // Scroll-aware header
+    const header = document.getElementById('site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(el => observer.observe(el));
+
+    // Smooth scroll for same-page anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+<script data-pplx-inline-edit>
+(function(){
+  if(window===window.top)return;
+  function inlineAll(orig,clone){
+    if(orig.nodeType!==1)return;
+    try{
+      var cs=getComputedStyle(orig);
+      var t='';
+      for(var i=0;i<cs.length;i++){t+=cs[i]+':'+cs.getPropertyValue(cs[i])+';';}
+      clone.style.cssText=t;
+    }catch(e){}
+    var oc=orig.children,cc=clone.children;
+    for(var j=0;j<oc.length&&j<cc.length;j++){inlineAll(oc[j],cc[j]);}
+  }
+  function stripExternal(clone){
+    var imgs=clone.querySelectorAll('img');
+    for(var i=0;i<imgs.length;i++){
+      var s=imgs[i].getAttribute('src');
+      if(s&&!s.startsWith('data:'))imgs[i].removeAttribute('src');
+    }
+    var all=clone.querySelectorAll('*');
+    for(var i=0;i<all.length;i++){
+      var st=all[i].style.cssText;
+      if(st&&st.indexOf('url(')>=0){
+        all[i].style.cssText=st.replace(/url\(["']?(?!data:)[^)"']*["']?\)/gi,'none');
+      }
+    }
+  }
+  window.addEventListener('message',function(e){
+    if(!e.data||e.data.type!=='INLINE_EDIT_CAPTURE_REQUEST')return;
+    var scrollX=window.scrollX||window.pageXOffset||0;
+    var scrollY=window.scrollY||window.pageYOffset||0;
+    var w=window.innerWidth,h=window.innerHeight;
+    try{
+      var clone=document.documentElement.cloneNode(true);
+      var rm=clone.querySelectorAll('script,link[rel="stylesheet"],style');
+      for(var i=0;i<rm.length;i++){rm[i].remove();}
+      inlineAll(document.documentElement,clone);
+      stripExternal(clone);
+      var html=new XMLSerializer().serializeToString(clone);
+      var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'">'
+        +'<foreignObject width="100%" height="100%">'
+        +'<div xmlns="http://www.w3.org/1999/xhtml" style="width:'+w+'px;height:'+h+'px;overflow:hidden">'
+        +'<div style="transform:translate(-'+scrollX+'px,-'+scrollY+'px);transform-origin:top left">'
+        +html+'</div></div></foreignObject></svg>';
+      var svgUrl='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+      var img=new Image();
+      img.onload=function(){
+        var c=document.createElement('canvas');c.width=w;c.height=h;
+        c.getContext('2d').drawImage(img,0,0);
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:c.toDataURL('image/png'),scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.onerror=function(){
+        window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+      };
+      img.src=svgUrl;
+    }catch(err){
+      window.parent.postMessage({type:'INLINE_EDIT_SCREENSHOT_RESULT',dataUrl:null,scrollX:scrollX,scrollY:scrollY},'*');
+    }
+  });
+})();
+</script></body>
+</html>
